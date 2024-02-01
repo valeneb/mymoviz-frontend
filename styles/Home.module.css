@@ -59,6 +59,7 @@
   border-radius: 4px;
   transition-duration: 0.5s;
   cursor: pointer;
+  margin-right: 40px;
 }
 
 .popover:hover {
