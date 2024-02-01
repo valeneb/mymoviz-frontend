@@ -1,34 +1,47 @@
 .card {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	width: 220px;
-	margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 220px;
+  margin: 20px;
+}
+
+.containerposter {
+  position: relative;
 }
 
 .image {
-	width: 220px;
-	border-radius: 10px 10px 0px 0px;
+  width: 220px;
+  border-radius: 10px 10px 0px 0px;
+  display: block;
+}
+
+.overlayicon {
+  position: absolute;
+  top: 5%;
+  right: 5%;
 }
 
 .textContainer {
-	display: flex;
-	flex-direction: column;
-	height: 230px;
-	margin: 10px 0px 10px 00px;
+  display: flex;
+  flex-direction: column;
+  height: 230px;
+  margin: 10px 0px 10px 00px;
 }
 
 .name {
-	font-weight: 600;
+  font-weight: 600;
 }
 
 .description {
-	font-weight: 300;
-	font-size: 14px;
+  font-weight: 300;
+  font-size: 14px;
+  height: 130px;
+  overflow-y: scroll;
 }
 
 .iconContainer {
-	display: flex;
-	flex-direction: column;
-	font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
 }
